@@ -1,0 +1,8 @@
+version: "1"
+
+services:
+  # BACKEND_GATEWAY
+  welcomer:
+    container_name: welcomer
+    image: ota-test-welcome
+    privileged: true
